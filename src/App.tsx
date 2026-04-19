@@ -340,9 +340,6 @@ export default function App() {
                   </div>
                 </div>
               )}
-                  <p className="text-zinc-500">Feature coming soon. Customize your hub experience.</p>
-                </div>
-              )}
             </motion.div>
           </AnimatePresence>
         </div>
