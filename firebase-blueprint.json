@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "Note": {
+      "title": "Engineering Note",
+      "description": "Study material for college students",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "Note title" },
+        "subject": { "type": "string", "description": "Subject name" },
+        "semester": { "type": "integer", "description": "Semester number" },
+        "content": { "type": "string", "description": "Note content" },
+        "author": { "type": "string", "description": "Author name" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "subject", "semester", "content", "author"]
+    }
+  },
+  "firestore": {
+    "/notes/{noteId}": {
+      "schema": "Note",
+      "description": "Notes repository collection"
+    }
+  }
+}
