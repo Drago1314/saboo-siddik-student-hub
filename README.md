@@ -20,13 +20,47 @@
 
 Saboo Siddik Student Hub is a student-built academic platform for MHSS College of Engineering. It provides a centralized dashboard where students can access shared notes, upload study materials, and interact with an AI-powered oracle for academic queries — all behind secure Google authentication.
 
-## Features
+## 🚀 The Ultimate Saboo Siddik Student Hub — Full Roadmap
 
-- **🔐 Google Authentication** — Secure sign-in via Firebase Auth with admin/student role separation
-- **📚 Notes Repository** — Browse, search, and download shared study materials organized by subject
-- **📤 Upload Notes** — Contribute notes with metadata (subject, year, description) stored on Supabase
-- **🤖 AI Oracle** — Ask academic questions and get instant answers powered by Gemini 1.5 Flash
-- **🎨 Modern UI** — Smooth animations via Framer Motion, responsive Tailwind CSS design, dark theme
+### Phase 1: The Core ✅ `SHIPPED`
+
+> Foundation locked. Notes + AI Oracle live and operational.
+
+| # | Feature | Description | Status |
+|---|---------|-------------|--------|
+| 1 | **📚 Exam-Prep-Sync (Notes Vault)** | Semester-wise, subject-wise verified notes & previous year question papers — decentralized repository with upload support via Supabase | ✅ Done |
+| 2 | **🤖 AI Oracle (Campus Bot)** | Gemini 1.5 Flash RAG chatbot — answers queries 24x7 based on college documents, timetables, and notes | ✅ Done |
+| — | **🔐 Google Authentication** | Secure sign-in via Firebase Auth with admin/student role separation | ✅ Done |
+| — | **🎨 Modern UI** | Framer Motion animations, responsive Tailwind CSS, dark theme | ✅ Done |
+
+---
+
+### Phase 2: Connectivity & Utilities 🔧 `UP NEXT`
+
+| # | Feature | Description | Status |
+|---|---------|-------------|--------|
+| 3 | **🤝 Campus Collab (Project Matchmaker)** | Tinder-style swipe UI — students match for projects based on skills (Python, Blockchain, ML, etc.) | 🔲 Planned |
+| 4 | **🔍 Lost-n-Found (Smart Tracker)** | AI-powered portal that auto-matches "Lost" and "Found" items, notifies users on match | 🔲 Planned |
+| 5 | **🚂 Ride-Share (Commuter Union)** | Western Line coordination system (Mira Road → Mumbai Central) for group commuting | 🔲 Planned |
+
+---
+
+### Phase 3: Interactive & Emotional 🎭 `THE "COOL" FACTOR`
+
+| # | Feature | Description | Status |
+|---|---------|-------------|--------|
+| 6 | **📱 AR Campus Navigator** | Camera-based AR indoor navigation to find labs, seminar halls, and classrooms | 🔲 Planned |
+| 7 | **🕊️ Conflict-Resolution Bot (The Diplomat)** | AI mediator — converts anonymous complaints into polite feedback, resolves group conflicts | 🔲 Planned |
+| 8 | **⏳ Memory Lane (Time Capsule)** | Audio-visual snippets & voice notes that unlock on specific dates (Graduation Day, Farewell, etc.) | 🔲 Planned |
+
+---
+
+### Phase 4: Optimization 🧠 `PRO LEVEL`
+
+| # | Feature | Description | Status |
+|---|---------|-------------|--------|
+| 9 | **🍽️ Canteen Crowd-Predictor** | IoT / Vision-based live status — shows canteen crowd density and estimated wait time | 🔲 Planned |
+| 10 | **💱 Skill-Barter Marketplace** | Time-exchange platform — no money, just skills ("I teach you Cybersecurity, you teach me SQL") | 🔲 Planned |
 
 ## Tech Stack
 
